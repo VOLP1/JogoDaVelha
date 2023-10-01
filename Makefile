@@ -2,7 +2,7 @@ all: velha.o testa_velha.cpp
 	g++ -std=c++11 -Wall  velha.o testa_velha.cpp -o testa_velha
 	
 
-romanos.o : velha.cpp velha.hpp
+velha.o : velha.cpp velha.hpp
 	g++ -std=c++11 -Wall  -c velha.cpp
 	
 

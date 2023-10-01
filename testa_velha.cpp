@@ -9,6 +9,5 @@ TEST_CASE( "Testa velha", "[single-file]" ) {
 						  { 0, 2, 1 }
 					  };
     REQUIRE( VerificaVelha(teste1) == 1 );
-
-
+	
 }
