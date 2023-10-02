@@ -8,17 +8,17 @@ TEST_CASE( "Testa velha", "[single-file]" ) {
 	                      { 2, 1, 0 },
 						  { 0, 0, 0 }
 					  };
-    REQUIRE( VerificaVelha(teste1) == 0 );
+    REQUIRE(VerificaVelha(teste1) == 0 );
 
 	int teste2[3][3]= {   { 0, 0, 0 }, 
 	                      { 1, 0, 0 },
-						  { 1, 1, 0 }
+						  { 1, 1, 1 }
 					  };
-    REQUIRE( VerificaVelha(teste2) == 0 );
+    REQUIRE(VerificaVelha(teste2) == 1 );
 
-	int teste3[3][3]= {   { 0, 0, 2 }, 
-	                      { 1, 0, 2 },
-						  { 1, 1, 2 }
+	int teste3[3][3]= {   { 2, 2, 2 }, 
+	                      { 2, 2, 2 },
+						  { 2, 2, 2 }
 					  };
-    REQUIRE( VerificaVelha(teste3) == 2 );
+    REQUIRE(VerificaVelha(teste3) == 2 );
 }
