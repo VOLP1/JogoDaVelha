@@ -6,9 +6,9 @@
 TEST_CASE( "Testa velha", "[single-file]" ) {
 	int teste1[3][3]= {   { 2, 0, 1 }, 
 	                      { 2, 1, 0 },
-						  { 0, 0, 0 }
+						  { 2, 0, 0 }
 					  };
-    REQUIRE(VerificaVelha(teste1) == 0 );
+    REQUIRE(VerificaVelha(teste1) == 2 );
 
 	int teste2[3][3]= {   { 0, 0, 0 }, 
 	                      { 1, 0, 0 },
@@ -22,3 +22,4 @@ TEST_CASE( "Testa velha", "[single-file]" ) {
 					  };
     REQUIRE(VerificaVelha(teste3) == 2 );
 }
+
