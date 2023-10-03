@@ -1,7 +1,0 @@
-Pré-requisitos:
-- Ter g++ e o make instalado (costumam vir pré instalados no Linux)
-
-Passos:
-1 - Digite "make" neste diretório, isso irá compilar o código
-2 - Após compilar digite "./testa_romanos" para rodar os testes
-(Opcional) - Caso queira apagar os aqrquivos "romanos.o" e "testa_romanos" do diretório digite "make clean"

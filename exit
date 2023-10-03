@@ -1,0 +1,112 @@
+[33mcommit 8dc437b519b31d21db1f6b1f6b86b3679b98dca1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: ec335bc a35fd19
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 22:24:30 2023 -0300
+
+    Merge branch 'main' of https://github.com/VOLP1/JogoDaVelha
+
+[33mcommit ec335bc2cd113e89015bc247630a65466479f193[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 22:03:57 2023 -0300
+
+            modified:   testa_velha.exe
+
+[33mcommit 349947e1557d1ca442f741c81f91baf17ba3a13c[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 22:03:09 2023 -0300
+
+            modified:   testa_velha.exe
+            modified:   velha.cpp
+            modified:   velha.o
+
+[33mcommit 0d225bb6e3e0123e827968af94854f1855d81679[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 21:56:23 2023 -0300
+
+            modified:   testa_velha.cpp
+            modified:   testa_velha.exe
+            modified:   velha.cpp
+
+[33mcommit 9bbf45b28a3f012430693985f170939ac6617a07[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 21:52:21 2023 -0300
+
+            modified:   testa_velha.cpp
+            modified:   testa_velha.exe
+            modified:   velha.cpp
+            modified:   velha.o
+
+[33mcommit ebcf75334e03b577df8e83a507f3bf6433b0ac19[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 21:02:19 2023 -0300
+
+            modified:   testa_velha.cpp
+            modified:   testa_velha.exe
+            modified:   velha.cpp
+            modified:   velha.hpp
+            modified:   velha.o
+
+[33mcommit 8635920238d91e5cb6000fd0c5119c44f083ca59[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 00:36:11 2023 -0300
+
+            modified:   testa_velha.cpp
+            modified:   testa_velha.exe
+            modified:   velha.cpp
+            modified:   velha.o
+
+[33mcommit d82c3fae79e8e740a3d72869a75273e5592b8da6[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 00:23:52 2023 -0300
+
+            modified:   testa_velha.cpp
+            new file:   testa_velha.exe
+            modified:   velha.cpp
+            modified:   velha.o
+
+[33mcommit fc9b3e8bee78a68ad4d4348f4df2890dce8bc019[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Mon Oct 2 00:09:05 2023 -0300
+
+            modified:   velha.cpp
+            modified:   velha.o
+
+[33mcommit 385f7c78d3027f544e317667800ba5f3c2eb90ce[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Sun Oct 1 23:45:51 2023 -0300
+
+            modified:   testa_velha.cpp
+            modified:   testa_velha.exe
+            modified:   velha.cpp
+            modified:   velha.hpp
+            modified:   velha.o
+
+[33mcommit a3dff8991a2d646de002f32025635f09a3635206[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Sun Oct 1 20:58:57 2023 -0300
+
+            modified:   Makefile
+            modified:   testa_velha.cpp
+            modified:   testa_velha.exe
+            modified:   velha.cpp
+            modified:   velha.hpp
+            modified:   velha.o
+
+[33mcommit 87d57d64313a20b55eceb8782ebc1b3beb3e305c[m
+Author: VOLP1 <eduvolpi5@gmail.com>
+Date:   Sun Oct 1 20:09:42 2023 -0300
+
+    new file:   Makefile
+    new file:   catch.hpp
+    new file:   leia_me.txt
+    new file:   testa_velha.cpp
+    new file:   testa_velha.exe
+    new file:   velha.cpp
+    new file:   velha.hpp
+    new file:   velha.o
+
+[33mcommit a35fd196bf143a927182ede0a71a7cf8aeda39b2[m[33m ([m[1;31mPrimeiroenvio/main[m[33m)[m
+Author: VOLP1 <64439930+VOLP1@users.noreply.github.com>
+Date:   Wed Sep 20 20:22:08 2023 -0300
+
+    Initial commit
