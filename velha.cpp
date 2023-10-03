@@ -10,7 +10,7 @@ int VerificaVelha(int velha[3][3]){
         switch (vencedor(velha))
         {
         case 0:
-            result = -1;
+            result = 0;
             break;
         case 1:
             result = 1;
@@ -18,19 +18,16 @@ int VerificaVelha(int velha[3][3]){
         case 2:
             result = 2;
             break;
-        
-        default:
+        case -1:
+            result = -1;
+            break;
+        default: 
+            result = -2;
             break;
     }
     }
 
     return result;
-    // if(vencedor(velha) == 0){
-    //     return 0;
-    // }else{
-    //     return vencedor(velha);
-    // }
-
 }
 
 bool jogoimpossivel(int velha[3][3]){
@@ -88,6 +85,16 @@ int vencedor(int velha[3][3])
     }else if(velha[0][2] == 1 && velha[1][1] == 1 && velha[2][0] == 1){
         return 1;
     } else{
-        return 0;
+        int vence = 0;
+        for(int i = 0; i<3;i++){
+            for (int x = 0; x < 3; x++)
+            {
+                if(velha[i][x] == 0){
+                    vence = -1;
+                }
+            }
+        
+        }
+        return vence;
     };
 };
