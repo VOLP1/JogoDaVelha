@@ -3,33 +3,18 @@
 #include "velha.hpp"
 
 using namespace std;
-
+//Funcao principal
 int VerificaVelha(int velha[3][3]){
-    int result = -2;
+    //Se o jogo for possivel, retorna quem ganhou, ou se foi empate.
     if(!jogoimpossivel(velha)){
-        switch (vencedor(velha))
-        {
-        case 0:
-            result = 0;
-            break;
-        case 1:
-            result = 1;
-            break;
-        case 2:
-            result = 2;
-            break;
-        case -1:
-            result = -1;
-            break;
-        default: 
-            result = -2;
-            break;
+        
+        return vencedor(velha);
     }
+    return -2;
     }
 
-    return result;
-}
-
+    
+//Determina se o jogo e impossivel
 bool jogoimpossivel(int velha[3][3]){
     int contador = 0;
     for(int i = 0; i<3;i++){
@@ -49,7 +34,7 @@ bool jogoimpossivel(int velha[3][3]){
     }
     return false;
 }
-
+//Verifica se alguem ganhou em alguma coluna, se ninguem ganhou, determina se o jogo deu velha, ou se nao acabou.
 int vencedor(int velha[3][3])
 {
     if(velha[0][0] == 1 && velha[0][1] == 1 && velha[0][2] == 1){
