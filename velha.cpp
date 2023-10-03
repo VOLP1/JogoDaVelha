@@ -5,15 +5,53 @@
 using namespace std;
 
 int VerificaVelha(int velha[3][3]){
-    if(vencedor(velha) == 0){
-        return 0;
-    }else{
-        return vencedor(velha);
+    int result = -2;
+    if(!jogoimpossivel(velha)){
+        switch (vencedor(velha))
+        {
+        case 0:
+            result = -1;
+            break;
+        case 1:
+            result = 1;
+            break;
+        case 2:
+            result = 2;
+            break;
+        
+        default:
+            break;
     }
+    }
+
+    return result;
+    // if(vencedor(velha) == 0){
+    //     return 0;
+    // }else{
+    //     return vencedor(velha);
+    // }
 
 }
 
-
+bool jogoimpossivel(int velha[3][3]){
+    int contador = 0;
+    for(int i = 0; i<3;i++){
+        for (int x = 0; x < 3; x++)
+        {
+            if(velha[i][x] == 1){
+                contador++;
+            }
+            if(velha[i][x] == 2){
+                contador--;
+            }
+        }
+        
+    }
+    if(contador < -1 || contador > 1){
+        return true;
+    }
+    return false;
+}
 
 int vencedor(int velha[3][3])
 {
