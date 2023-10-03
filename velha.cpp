@@ -93,7 +93,6 @@ int vencedor(int velha[3][3])
                     vence = -1;
                 }
             }
-        
         }
         return vence;
     };
